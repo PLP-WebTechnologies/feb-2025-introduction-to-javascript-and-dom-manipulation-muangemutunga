@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript & DOM Manipulation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to JavaScript DOM Practice</h1>
+  </header>
+
+  <nav>
+    <p>Click the buttons below to interact with the page.</p>
+  </nav>
+
+  <main>
+    <section>
+      <p id="change-text">This text will change when you click the button.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <p id="style-target">Watch my style change!</p>
+      <button onclick="changeStyle()">Change Style</button>
+    </section>
+
+    <section>
+      <ul id="item-list">
+        <li>Sample Item 1</li>
+        <li>Sample Item 2</li>
+      </ul>
+      <button onclick="addItem()">Add Item</button>
+      <button onclick="removeItem()">Remove Last Item</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 JavaScript DOM Demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
